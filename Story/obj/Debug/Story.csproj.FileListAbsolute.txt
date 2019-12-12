@@ -1,0 +1,7 @@
+D:\Учеба\epam\Story\Story\bin\Debug\Story.exe.config
+D:\Учеба\epam\Story\Story\bin\Debug\Story.exe
+D:\Учеба\epam\Story\Story\bin\Debug\Story.pdb
+D:\Учеба\epam\Story\Story\obj\Debug\Story.csprojAssemblyReference.cache
+D:\Учеба\epam\Story\Story\obj\Debug\Story.csproj.CoreCompileInputs.cache
+D:\Учеба\epam\Story\Story\obj\Debug\Story.exe
+D:\Учеба\epam\Story\Story\obj\Debug\Story.pdb

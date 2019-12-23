@@ -70,15 +70,19 @@ namespace Task4
             EndStory();
         }
 
-        public delegate void EndingDelegate<T>(T ending);
-
         private void EndStory()
         {
             if (listOfCharacters.FullStrength < 5)
             {
-                Endings.strEnding = Endings.GetEnding(6, "");
-                Endings.strEnding("за десять коров");
-                Console.WriteLine("~~~КОНЕЦ~~~");
+                Endings.GetEnding(0)(listOfCharacters[Randomizer.rnd.Next(0, 7)].Nickname);
+            }
+            else
+            {
+                int rnd = Randomizer.rnd.Next(1, 30);
+                if (rnd > 20)
+                    Endings.GetEnding()(100);
+                else
+                    Endings.GetEnding(rnd)("за 3 коровы");
             }
 
         }

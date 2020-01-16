@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.photos {
+    background-color: #f35e59;
+    width: 73.1%;
+    display: table;
+    margin: auto;
+}
+
+.photos-tr {
+	display: table-row;
+}
+
+.photos-tr div {
+    display: table-cell;
+    width: 230px;
+    height: 220px;
+}
+
+.photo:hover {
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.photos-tr .photo>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text h3, p {
+    margin: 0;
+}
+
+.text h3 {
+    font-size: 24px;
+}
+
+.text p {
+    font-size: 14px;;
+}
+
+.text {
+    vertical-align:middle;
+}
+
+.first .header:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 30px; 
+    padding-bottom: 20px; 
+    margin-bottom:40px;
+    border-bottom: 4px solid rgb(255, 255, 255); 
+}
+
+.first {
+    background-color: #de2b24;
+    text-align: center;
+    color: #ffffff;
+    padding-top:100px;
+    padding-bottom: 130px;
+}
+
+.header {
+    text-align: center;
+    color: #ffffff;
+}
+
+.header h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.second {
+    background-color: #1287bf;
+    padding-top:100px;
+    padding-bottom: 130px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#circle {
+    width: 52px;
+    height: 52px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 15px auto 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+#circle i {
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    top: 37%;
+    right: 37%;
+}
+
+#circle:hover {
+    box-shadow:0 0 5px rgb(255, 255, 255);
+}
+
+.facebookform {
+    width: 52%;
+    margin: auto;
+    position: relative;
+}
+
+#triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 31px solid transparent;
+    border-right: 31px solid transparent;
+    border-bottom: 31px solid white;
+    margin:auto;
+}
+
+.form {
+    width: 86%;
+    background-color: #ffffff;
+    margin:auto;
+    padding:7%;
+}
+
+.close-button {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: rgb(222, 43, 36);
+    border-radius: 50%;
+    margin: 15px auto 25px;
+    cursor: pointer;
+    position:absolute;
+    left:95%;
+    bottom:82%;
+}
+
+.close-button p {
+    margin-top:20%;
+}
+
+.form p{
+    color: rgb(130, 130, 130);
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.form input[type=text], select {
+    width: 70%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form input[type=submit] {
+    background-color: #de2b24;
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover {
+    box-shadow:0 0 10px #000;
+  }
+
+.third {
+    background-color: #2a2a2a;
+    padding-top:100px;
+    padding-bottom: 130px;
+}
+
+.third .header {
+    width: 52%;
+    margin: auto;
+}
+
+.socialmedia div{
+    width: 40px;
+    height: 30px;
+    display:inline-block;
+    border: solid #515151;
+    padding-top:10px;
+    border-radius: 3px;
+    margin:25px 10px 35px 10px;
+    cursor: pointer;
+}
+
+.socialmedia div img {
+    display: cell;
+    vertical-align:middle;
+}
+
+.socialmedia div:hover{
+    border-color: #de2b24;
+}
+
+.third p {
+    color: rgb(130, 130, 130);
+    text-align: center;
+    font-size: 14px;
+}
+
+.third input[type=email], select {
+    width: 90%;
+    padding: 14px;
+    background-color: #515151;
+    color: #ffffff;
+    border:none;
+    border-radius: 3px;
+    margin-top:29px;
+}
+
+.third input[type=submit] {
+    border: solid 1px #515151;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: auto;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 86px;
+    margin-top: 30px;
+}
+
+.third input[type=submit]:hover {
+    border-color: #de2b24;
+}
+
+footer {
+    background-color: #515151;
+    color: rgb(206, 206, 206);
+    padding: 24px;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+}
+  
